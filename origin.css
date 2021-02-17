@@ -89,4 +89,38 @@ body {
     background-color: #ddd;
     color: black;
   }
+
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  .row_img {
+
+    display: flex;
+    background-color: #aaa;
+    flex-direction:row;
+    justify-content: center;
+    align-items: stretch;
+  }
+    .row_img > div {
+        background-color: #f1f1f1;
+        width: 300px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
   
